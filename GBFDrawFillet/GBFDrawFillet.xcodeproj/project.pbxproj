@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		849FDE6E25AEBDBA00351A0A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 849FDE6D25AEBDBA00351A0A /* AppDelegate.m */; };
+		849FDE7125AEBDBA00351A0A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 849FDE7025AEBDBA00351A0A /* SceneDelegate.m */; };
+		849FDE7425AEBDBA00351A0A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849FDE7325AEBDBA00351A0A /* ViewController.m */; };
+		849FDE7725AEBDBA00351A0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849FDE7525AEBDBA00351A0A /* Main.storyboard */; };
+		849FDE7925AEBDCD00351A0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849FDE7825AEBDCD00351A0A /* Assets.xcassets */; };
+		849FDE7C25AEBDCD00351A0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849FDE7A25AEBDCD00351A0A /* LaunchScreen.storyboard */; };
+		849FDE7F25AEBDCD00351A0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 849FDE7E25AEBDCD00351A0A /* main.m */; };
+		849FDE8925AEBDCE00351A0A /* GBFDrawFilletTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 849FDE8825AEBDCE00351A0A /* GBFDrawFilletTests.m */; };
+		849FDE9425AEBDCF00351A0A /* GBFDrawFilletUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 849FDE9325AEBDCF00351A0A /* GBFDrawFilletUITests.m */; };
+		849FDEA625AEBDEC00351A0A /* GBFDrawFilletView.m in Sources */ = {isa = PBXBuildFile; fileRef = 849FDEA525AEBDEC00351A0A /* GBFDrawFilletView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		849FDE8525AEBDCE00351A0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 849FDE6125AEBDBA00351A0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 849FDE6825AEBDBA00351A0A;
+			remoteInfo = GBFDrawFillet;
+		};
+		849FDE9025AEBDCF00351A0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 849FDE6125AEBDBA00351A0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 849FDE6825AEBDBA00351A0A;
+			remoteInfo = GBFDrawFillet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		849FDE6925AEBDBA00351A0A /* GBFDrawFillet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GBFDrawFillet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		849FDE6C25AEBDBA00351A0A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		849FDE6D25AEBDBA00351A0A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		849FDE6F25AEBDBA00351A0A /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		849FDE7025AEBDBA00351A0A /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		849FDE7225AEBDBA00351A0A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		849FDE7325AEBDBA00351A0A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		849FDE7625AEBDBA00351A0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		849FDE7825AEBDCD00351A0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		849FDE7B25AEBDCD00351A0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		849FDE7D25AEBDCD00351A0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849FDE7E25AEBDCD00351A0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		849FDE8425AEBDCE00351A0A /* GBFDrawFilletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GBFDrawFilletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		849FDE8825AEBDCE00351A0A /* GBFDrawFilletTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GBFDrawFilletTests.m; sourceTree = "<group>"; };
+		849FDE8A25AEBDCE00351A0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849FDE8F25AEBDCF00351A0A /* GBFDrawFilletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GBFDrawFilletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		849FDE9325AEBDCF00351A0A /* GBFDrawFilletUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GBFDrawFilletUITests.m; sourceTree = "<group>"; };
+		849FDE9525AEBDCF00351A0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849FDEA425AEBDEC00351A0A /* GBFDrawFilletView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GBFDrawFilletView.h; sourceTree = "<group>"; };
+		849FDEA525AEBDEC00351A0A /* GBFDrawFilletView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GBFDrawFilletView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		849FDE6625AEBDBA00351A0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849FDE8125AEBDCE00351A0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849FDE8C25AEBDCF00351A0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		849FDE6025AEBDBA00351A0A = {
+			isa = PBXGroup;
+			children = (
+				849FDE6B25AEBDBA00351A0A /* GBFDrawFillet */,
+				849FDE8725AEBDCE00351A0A /* GBFDrawFilletTests */,
+				849FDE9225AEBDCF00351A0A /* GBFDrawFilletUITests */,
+				849FDE6A25AEBDBA00351A0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		849FDE6A25AEBDBA00351A0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				849FDE6925AEBDBA00351A0A /* GBFDrawFillet.app */,
+				849FDE8425AEBDCE00351A0A /* GBFDrawFilletTests.xctest */,
+				849FDE8F25AEBDCF00351A0A /* GBFDrawFilletUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		849FDE6B25AEBDBA00351A0A /* GBFDrawFillet */ = {
+			isa = PBXGroup;
+			children = (
+				849FDE6C25AEBDBA00351A0A /* AppDelegate.h */,
+				849FDE6D25AEBDBA00351A0A /* AppDelegate.m */,
+				849FDE6F25AEBDBA00351A0A /* SceneDelegate.h */,
+				849FDE7025AEBDBA00351A0A /* SceneDelegate.m */,
+				849FDE7225AEBDBA00351A0A /* ViewController.h */,
+				849FDE7325AEBDBA00351A0A /* ViewController.m */,
+				849FDEA425AEBDEC00351A0A /* GBFDrawFilletView.h */,
+				849FDEA525AEBDEC00351A0A /* GBFDrawFilletView.m */,
+				849FDE7525AEBDBA00351A0A /* Main.storyboard */,
+				849FDE7825AEBDCD00351A0A /* Assets.xcassets */,
+				849FDE7A25AEBDCD00351A0A /* LaunchScreen.storyboard */,
+				849FDE7D25AEBDCD00351A0A /* Info.plist */,
+				849FDE7E25AEBDCD00351A0A /* main.m */,
+			);
+			path = GBFDrawFillet;
+			sourceTree = "<group>";
+		};
+		849FDE8725AEBDCE00351A0A /* GBFDrawFilletTests */ = {
+			isa = PBXGroup;
+			children = (
+				849FDE8825AEBDCE00351A0A /* GBFDrawFilletTests.m */,
+				849FDE8A25AEBDCE00351A0A /* Info.plist */,
+			);
+			path = GBFDrawFilletTests;
+			sourceTree = "<group>";
+		};
+		849FDE9225AEBDCF00351A0A /* GBFDrawFilletUITests */ = {
+			isa = PBXGroup;
+			children = (
+				849FDE9325AEBDCF00351A0A /* GBFDrawFilletUITests.m */,
+				849FDE9525AEBDCF00351A0A /* Info.plist */,
+			);
+			path = GBFDrawFilletUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		849FDE6825AEBDBA00351A0A /* GBFDrawFillet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849FDE9825AEBDCF00351A0A /* Build configuration list for PBXNativeTarget "GBFDrawFillet" */;
+			buildPhases = (
+				849FDE6525AEBDBA00351A0A /* Sources */,
+				849FDE6625AEBDBA00351A0A /* Frameworks */,
+				849FDE6725AEBDBA00351A0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GBFDrawFillet;
+			productName = GBFDrawFillet;
+			productReference = 849FDE6925AEBDBA00351A0A /* GBFDrawFillet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		849FDE8325AEBDCE00351A0A /* GBFDrawFilletTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849FDE9B25AEBDCF00351A0A /* Build configuration list for PBXNativeTarget "GBFDrawFilletTests" */;
+			buildPhases = (
+				849FDE8025AEBDCE00351A0A /* Sources */,
+				849FDE8125AEBDCE00351A0A /* Frameworks */,
+				849FDE8225AEBDCE00351A0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				849FDE8625AEBDCE00351A0A /* PBXTargetDependency */,
+			);
+			name = GBFDrawFilletTests;
+			productName = GBFDrawFilletTests;
+			productReference = 849FDE8425AEBDCE00351A0A /* GBFDrawFilletTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		849FDE8E25AEBDCF00351A0A /* GBFDrawFilletUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849FDE9E25AEBDCF00351A0A /* Build configuration list for PBXNativeTarget "GBFDrawFilletUITests" */;
+			buildPhases = (
+				849FDE8B25AEBDCF00351A0A /* Sources */,
+				849FDE8C25AEBDCF00351A0A /* Frameworks */,
+				849FDE8D25AEBDCF00351A0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				849FDE9125AEBDCF00351A0A /* PBXTargetDependency */,
+			);
+			name = GBFDrawFilletUITests;
+			productName = GBFDrawFilletUITests;
+			productReference = 849FDE8F25AEBDCF00351A0A /* GBFDrawFilletUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		849FDE6125AEBDBA00351A0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					849FDE6825AEBDBA00351A0A = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					849FDE8325AEBDCE00351A0A = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 849FDE6825AEBDBA00351A0A;
+					};
+					849FDE8E25AEBDCF00351A0A = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 849FDE6825AEBDBA00351A0A;
+					};
+				};
+			};
+			buildConfigurationList = 849FDE6425AEBDBA00351A0A /* Build configuration list for PBXProject "GBFDrawFillet" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 849FDE6025AEBDBA00351A0A;
+			productRefGroup = 849FDE6A25AEBDBA00351A0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				849FDE6825AEBDBA00351A0A /* GBFDrawFillet */,
+				849FDE8325AEBDCE00351A0A /* GBFDrawFilletTests */,
+				849FDE8E25AEBDCF00351A0A /* GBFDrawFilletUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		849FDE6725AEBDBA00351A0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849FDE7C25AEBDCD00351A0A /* LaunchScreen.storyboard in Resources */,
+				849FDE7925AEBDCD00351A0A /* Assets.xcassets in Resources */,
+				849FDE7725AEBDBA00351A0A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849FDE8225AEBDCE00351A0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849FDE8D25AEBDCF00351A0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		849FDE6525AEBDBA00351A0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849FDE7425AEBDBA00351A0A /* ViewController.m in Sources */,
+				849FDE6E25AEBDBA00351A0A /* AppDelegate.m in Sources */,
+				849FDE7F25AEBDCD00351A0A /* main.m in Sources */,
+				849FDEA625AEBDEC00351A0A /* GBFDrawFilletView.m in Sources */,
+				849FDE7125AEBDBA00351A0A /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849FDE8025AEBDCE00351A0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849FDE8925AEBDCE00351A0A /* GBFDrawFilletTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849FDE8B25AEBDCF00351A0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849FDE9425AEBDCF00351A0A /* GBFDrawFilletUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		849FDE8625AEBDCE00351A0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 849FDE6825AEBDBA00351A0A /* GBFDrawFillet */;
+			targetProxy = 849FDE8525AEBDCE00351A0A /* PBXContainerItemProxy */;
+		};
+		849FDE9125AEBDCF00351A0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 849FDE6825AEBDBA00351A0A /* GBFDrawFillet */;
+			targetProxy = 849FDE9025AEBDCF00351A0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		849FDE7525AEBDBA00351A0A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				849FDE7625AEBDBA00351A0A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		849FDE7A25AEBDCD00351A0A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				849FDE7B25AEBDCD00351A0A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		849FDE9625AEBDCF00351A0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		849FDE9725AEBDCF00351A0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		849FDE9925AEBDCF00351A0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B9PADNJ28S;
+				INFOPLIST_FILE = GBFDrawFillet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bioeh.health.GBFDrawFillet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		849FDE9A25AEBDCF00351A0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B9PADNJ28S;
+				INFOPLIST_FILE = GBFDrawFillet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bioeh.health.GBFDrawFillet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		849FDE9C25AEBDCF00351A0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B9PADNJ28S;
+				INFOPLIST_FILE = GBFDrawFilletTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bioeh.health.GBFDrawFilletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GBFDrawFillet.app/GBFDrawFillet";
+			};
+			name = Debug;
+		};
+		849FDE9D25AEBDCF00351A0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B9PADNJ28S;
+				INFOPLIST_FILE = GBFDrawFilletTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bioeh.health.GBFDrawFilletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GBFDrawFillet.app/GBFDrawFillet";
+			};
+			name = Release;
+		};
+		849FDE9F25AEBDCF00351A0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B9PADNJ28S;
+				INFOPLIST_FILE = GBFDrawFilletUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bioeh.health.GBFDrawFilletUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GBFDrawFillet;
+			};
+			name = Debug;
+		};
+		849FDEA025AEBDCF00351A0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B9PADNJ28S;
+				INFOPLIST_FILE = GBFDrawFilletUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bioeh.health.GBFDrawFilletUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GBFDrawFillet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		849FDE6425AEBDBA00351A0A /* Build configuration list for PBXProject "GBFDrawFillet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849FDE9625AEBDCF00351A0A /* Debug */,
+				849FDE9725AEBDCF00351A0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		849FDE9825AEBDCF00351A0A /* Build configuration list for PBXNativeTarget "GBFDrawFillet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849FDE9925AEBDCF00351A0A /* Debug */,
+				849FDE9A25AEBDCF00351A0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		849FDE9B25AEBDCF00351A0A /* Build configuration list for PBXNativeTarget "GBFDrawFilletTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849FDE9C25AEBDCF00351A0A /* Debug */,
+				849FDE9D25AEBDCF00351A0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		849FDE9E25AEBDCF00351A0A /* Build configuration list for PBXNativeTarget "GBFDrawFilletUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849FDE9F25AEBDCF00351A0A /* Debug */,
+				849FDEA025AEBDCF00351A0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 849FDE6125AEBDBA00351A0A /* Project object */;
+}
