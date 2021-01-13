@@ -29,7 +29,7 @@
     if (!_bgView) {
         _bgView = [GBFDrawFilletView new];
         _bgView.backgroundColor = [UIColor whiteColor];
-        _bgView.titleStr = @"哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈";
+        _bgView.titleStr = @"这是标题";
         _bgView.titleFont = 18.7;
         _bgView.lineColor = [UIColor redColor];
         _bgView.titleClor = [UIColor orangeColor];
